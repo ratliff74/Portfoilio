@@ -1,0 +1,138 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    }
+body{
+    background-attachment: 'SFA.jpg';
+    width: 100%;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 40px;
+
+}
+
+nav{
+    display: block;
+    color: white;
+}
+nav a{
+    color: #dd1919;
+    text-decoration: none;
+
+} 
+
+nav a:hover{
+    color: white
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(166, 193, 194, 0.5),rgba(0,0,0,0.5)),url("../images/Moutainss.jpg");
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+    
+.hero-text{
+    color: rgb(2, 14, 7);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#main{
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#side{
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+#profile-image{
+    width: 100px;
+    border-radius: 50%;
+}
+
+#exploring-image{
+    width: 100%;
+    height: 300px;
+    padding-right: 70%;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#profile hr{
+    display: inline;
+}
+#profile-details{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: white;
+    text-align: center;
+}
+
+.main-articles{
+    background-color: lightgrey;
+}
+
+form{
+    margin-top: 20px;
+}
+
+textarea, input{
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles hr{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    margin-top: 0px;
+}
+
+footer div{
+    text-align: center;
+    color: white;
+    font-size: 20;
+}
+main{
+    overflow: auto;
+}
